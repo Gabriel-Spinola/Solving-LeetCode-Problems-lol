@@ -1,6 +1,6 @@
 #include <iostream>
 
-int checkAge(int a, int b, int& y) {
+int checkAge(int a, int b, int y) {
     y++;
 
     if (a * 3 > b * 2) {
@@ -21,8 +21,6 @@ int main() {
     int y = 0;
 
     std::cin >> a >> b;
-    
-    checkAge(a, b, y);
 
-    std::cout << y;
+    std::cout << checkAge(a, b, y);
 }
