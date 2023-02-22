@@ -1,29 +1,15 @@
 #include <iostream>
+#include <math.h>
 
 int main()
 {
-    int num[100] = {};
-    int val, max = 0;
+    bool a, b;
+    int n;
 
-    for(int a = 0; a < sizeof(num) / sizeof(int); a++)
-    {
-        std::cin >> val;
+    std::cin >> n;
 
-        if(val == 0)
-        {
-            break;
-        } else {
-            num[a] = val;
-        }
-    }
+    int v[100000] = {};
 
-    for(int a = 0; a < sizeof(num) / sizeof(int); a++)
-    {
-        if(num[a] > max)
-        {
-            max = num[a];
-        }
-    }
     
-    std::cout << max << std::endl;
+
 }
