@@ -1,31 +1,16 @@
 #include <iostream>
-#include <math.h>
 
 int main()
 {
-    bool a = 0, b = 0;
-    int n, v;
+    int a, b, years = 0;
 
-    std::cin >> n;
+    std::cin >> a >> b;
 
-    int values[100000] = {};
-
-    for(int i = 0; i < n; i++)
+    while(a <= b)
     {
-        std::cin >> v;
-        values[i] = v;
-    }
-
-    for(auto &x : values)
-    {
-        if(x == 1)
-        {
-            a = !a;
-        } else if(x == 2)
-        {
-            a = !b;
-            b = !b;
-        }
+        a *=3;
+        b *=2;
+        years++;
     }
     std::cout << a << std::endl << b;
 }
