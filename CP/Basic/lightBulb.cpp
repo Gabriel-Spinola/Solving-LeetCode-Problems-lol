@@ -2,12 +2,10 @@
 #include <vector>
 
 int main() {    	
-    int n, values, i1 = 0, i2 = 0;
+    int n, x, values, i1 = 0, i2 = 0;
     std::vector<int> I;
 
     std::cin >> n;
-    
-    int x;
 
     while (std::cin >> values && x < n) {
         I.push_back(values);
