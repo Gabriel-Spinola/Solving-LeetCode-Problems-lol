@@ -15,6 +15,7 @@ int checkAge(int a, int b, int& y) {
 }
 
 int main() {    	
+    // The output consists of a and b (1 ≤ a ≤ b ≤ 10)
     int a = 0; 
     int b = 0; 
     int y = 0;
