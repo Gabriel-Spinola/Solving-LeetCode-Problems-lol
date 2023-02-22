@@ -16,6 +16,16 @@ int main()
         values[i] = v;
     }
 
-    
-
+    for(auto &x : values)
+    {
+        if(x == 1)
+        {
+            a = !a;
+        } else if(x == 2)
+        {
+            a = !b;
+            b = !b;
+        }
+    }
+    std::cout << a << std::endl << b;
 }
