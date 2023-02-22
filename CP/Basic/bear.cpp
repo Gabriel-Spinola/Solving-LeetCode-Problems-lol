@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 int checkAge(int a, int b, int& y) {
     y++;
