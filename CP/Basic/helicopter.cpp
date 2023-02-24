@@ -1,5 +1,6 @@
 #include <iostream>
 
+// https://neps.academy/br/exercise/5
 char heli(int h, int p, int f, int d) {
     if (d == -1) {
         if (p > f && h < f) {
