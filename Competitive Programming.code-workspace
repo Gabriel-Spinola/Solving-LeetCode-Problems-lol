@@ -57,6 +57,9 @@
 			"algorithm": "cpp",
 			"ranges": "cpp",
 			"span": "cpp"
-		}
+		},
+		"cSpell.words": [
+			"heli"
+		]
 	}
 }
