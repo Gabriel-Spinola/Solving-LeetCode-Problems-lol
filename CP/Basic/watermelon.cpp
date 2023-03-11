@@ -2,7 +2,7 @@
 
 int main()
 {
-    int w, d;
+    int w;
 
     std::cin >> w;
 
