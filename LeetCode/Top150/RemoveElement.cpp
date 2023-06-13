@@ -15,5 +15,13 @@ public:
 
         int k = nums.size();
         return k;
+
+        /// # Other solution, but a little slower
+        // [&] gets outer variables as reference
+        {
+            nums.erase(std::remove_if(nums.begin(), nums.end(), [&](const int& i) {
+                return i == val;
+            }), nums.end());
+        }
     }
 };  
