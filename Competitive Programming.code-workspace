@@ -56,7 +56,8 @@
 			"vector": "cpp",
 			"algorithm": "cpp",
 			"ranges": "cpp",
-			"span": "cpp"
+			"span": "cpp",
+			"string": "cpp"
 		},
 		"cSpell.words": [
 			"heli"

@@ -1,0 +1,1 @@
+g++ -O2 -Wall file.cpp -o file
